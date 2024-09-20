@@ -1,0 +1,2 @@
+torch==2.4.1
+graphviz==0.20.3
