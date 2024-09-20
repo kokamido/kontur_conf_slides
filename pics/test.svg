@@ -1,0 +1,885 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="576pt" height="432pt" viewBox="0 0 576 432" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2024-09-20T14:40:58.679080</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.9.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 432 
+L 576 432 
+L 576 0 
+L 0 0 
+L 0 432 
+z
+" style="fill: none"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 56.855 351.88 
+L 533.43 351.88 
+L 533.43 25.92 
+L 56.855 25.92 
+L 56.855 351.88 
+z
+" style="fill: none"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="mdd7a8b0ab4" d="M 0 0 
+L 0 3.5 
+" style="stroke: #9700ff; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#mdd7a8b0ab4" x="56.855" y="351.88" style="fill: #9700ff; stroke: #9700ff; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <!-- −1.0 -->
+      <g style="fill: #9700ff" transform="translate(34.439375 375.92) scale(0.24 -0.24)">
+       <defs>
+        <path id="LabGrotesqueK-Regular-2212" d="M 256 2221 
+L 3584 2221 
+L 3584 1747 
+L 256 1747 
+L 256 2221 
+z
+" transform="scale(0.015625)"/>
+        <path id="LabGrotesqueK-Regular-31" d="M 218 3507 
+L 1555 4525 
+L 1984 4525 
+L 1984 0 
+L 1421 0 
+L 1421 3808 
+L 499 3117 
+L 218 3507 
+z
+" transform="scale(0.015625)"/>
+        <path id="LabGrotesqueK-Regular-2e" d="M 698 -58 
+Q 538 -58 419 60 
+Q 301 179 301 346 
+Q 301 506 419 624 
+Q 538 742 698 742 
+Q 858 742 976 624 
+Q 1094 506 1094 346 
+Q 1094 179 976 60 
+Q 858 -58 698 -58 
+z
+" transform="scale(0.015625)"/>
+        <path id="LabGrotesqueK-Regular-30" d="M 1888 4627 
+Q 2336 4627 2675 4409 
+Q 3014 4192 3213 3795 
+Q 3520 3174 3520 2259 
+Q 3520 1350 3213 730 
+Q 3014 333 2678 115 
+Q 2342 -102 1888 -102 
+Q 1434 -102 1098 115 
+Q 762 333 563 730 
+Q 256 1350 256 2259 
+Q 256 3174 563 3795 
+Q 762 4192 1101 4409 
+Q 1440 4627 1888 4627 
+z
+M 1888 4141 
+Q 1331 4141 1062 3546 
+Q 832 3059 832 2259 
+Q 832 1472 1062 973 
+Q 1190 685 1401 531 
+Q 1613 378 1888 378 
+Q 2163 378 2374 531 
+Q 2586 685 2714 973 
+Q 2944 1472 2944 2259 
+Q 2944 3059 2714 3546 
+Q 2445 4141 1888 4141 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#LabGrotesqueK-Regular-2212"/>
+       <use xlink:href="#LabGrotesqueK-Regular-31" x="59.999985"/>
+       <use xlink:href="#LabGrotesqueK-Regular-2e" x="105.999969"/>
+       <use xlink:href="#LabGrotesqueK-Regular-30" x="127.799957"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#mdd7a8b0ab4" x="136.284167" y="351.88" style="fill: #9700ff; stroke: #9700ff; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <!-- −0.5 -->
+      <g style="fill: #9700ff" transform="translate(112.344167 375.92) scale(0.24 -0.24)">
+       <defs>
+        <path id="LabGrotesqueK-Regular-35" d="M 1984 2918 
+Q 2413 2918 2739 2732 
+Q 3066 2547 3245 2220 
+Q 3424 1894 3424 1472 
+Q 3424 1056 3232 694 
+Q 3040 333 2688 115 
+Q 2336 -102 1875 -102 
+Q 1402 -102 1050 32 
+Q 698 166 230 493 
+L 512 909 
+Q 941 608 1216 493 
+Q 1491 378 1824 378 
+Q 2131 378 2364 522 
+Q 2598 666 2726 912 
+Q 2854 1158 2854 1453 
+Q 2854 1901 2598 2173 
+Q 2342 2445 1882 2445 
+Q 1350 2445 992 2074 
+L 499 2131 
+L 691 4525 
+L 3219 4525 
+L 3219 4045 
+L 1178 4045 
+L 1062 2618 
+Q 1427 2918 1984 2918 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#LabGrotesqueK-Regular-2212"/>
+       <use xlink:href="#LabGrotesqueK-Regular-30" x="59.999985"/>
+       <use xlink:href="#LabGrotesqueK-Regular-2e" x="118.999969"/>
+       <use xlink:href="#LabGrotesqueK-Regular-35" x="140.799957"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use xlink:href="#mdd7a8b0ab4" x="215.713333" y="351.88" style="fill: #9700ff; stroke: #9700ff; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <!-- 0.0 -->
+      <g style="fill: #9700ff" transform="translate(198.937708 375.92) scale(0.24 -0.24)">
+       <use xlink:href="#LabGrotesqueK-Regular-30"/>
+       <use xlink:href="#LabGrotesqueK-Regular-2e" x="58.999985"/>
+       <use xlink:href="#LabGrotesqueK-Regular-30" x="80.799973"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#mdd7a8b0ab4" x="295.1425" y="351.88" style="fill: #9700ff; stroke: #9700ff; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <!-- 0.5 -->
+      <g style="fill: #9700ff" transform="translate(278.4025 375.92) scale(0.24 -0.24)">
+       <use xlink:href="#LabGrotesqueK-Regular-30"/>
+       <use xlink:href="#LabGrotesqueK-Regular-2e" x="58.999985"/>
+       <use xlink:href="#LabGrotesqueK-Regular-35" x="80.799973"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5">
+      <g>
+       <use xlink:href="#mdd7a8b0ab4" x="374.571667" y="351.88" style="fill: #9700ff; stroke: #9700ff; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <!-- 1.0 -->
+      <g style="fill: #9700ff" transform="translate(359.356042 375.92) scale(0.24 -0.24)">
+       <use xlink:href="#LabGrotesqueK-Regular-31"/>
+       <use xlink:href="#LabGrotesqueK-Regular-2e" x="45.999985"/>
+       <use xlink:href="#LabGrotesqueK-Regular-30" x="67.799973"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#mdd7a8b0ab4" x="454.000833" y="351.88" style="fill: #9700ff; stroke: #9700ff; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <!-- 1.5 -->
+      <g style="fill: #9700ff" transform="translate(438.820833 375.92) scale(0.24 -0.24)">
+       <use xlink:href="#LabGrotesqueK-Regular-31"/>
+       <use xlink:href="#LabGrotesqueK-Regular-2e" x="45.999985"/>
+       <use xlink:href="#LabGrotesqueK-Regular-35" x="67.799973"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_7">
+      <g>
+       <use xlink:href="#mdd7a8b0ab4" x="533.43" y="351.88" style="fill: #9700ff; stroke: #9700ff; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <!-- 2.0 -->
+      <g style="fill: #9700ff" transform="translate(516.87 375.92) scale(0.24 -0.24)">
+       <defs>
+        <path id="LabGrotesqueK-Regular-32" d="M 3373 480 
+L 3373 0 
+L 262 0 
+L 262 211 
+Q 262 678 428 1001 
+Q 595 1325 851 1539 
+Q 1107 1754 1562 2042 
+Q 1747 2163 1875 2234 
+Q 2189 2419 2371 2553 
+Q 2554 2688 2672 2880 
+Q 2790 3072 2790 3334 
+Q 2790 3712 2547 3926 
+Q 2304 4141 1946 4141 
+Q 1574 4141 1299 3955 
+Q 1024 3770 685 3328 
+L 269 3622 
+Q 602 4115 1002 4371 
+Q 1402 4627 1933 4627 
+Q 2362 4627 2685 4460 
+Q 3008 4294 3184 4003 
+Q 3360 3712 3360 3354 
+Q 3360 2970 3209 2701 
+Q 3059 2432 2828 2253 
+Q 2598 2074 2182 1818 
+Q 2035 1741 1894 1645 
+L 1779 1568 
+Q 1466 1370 1293 1235 
+Q 1120 1101 995 915 
+Q 870 730 838 480 
+L 3373 480 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#LabGrotesqueK-Regular-32"/>
+       <use xlink:href="#LabGrotesqueK-Regular-2e" x="57.199997"/>
+       <use xlink:href="#LabGrotesqueK-Regular-30" x="78.999985"/>
+      </g>
+     </g>
+    </g>
+    <g id="text_8">
+     <!-- x -->
+     <g style="fill: #9700ff" transform="translate(289.3825 401.28) scale(0.24 -0.24)">
+      <defs>
+       <path id="LabGrotesqueK-Regular-78" d="M 1862 1670 
+L 2995 0 
+L 2387 0 
+L 1536 1267 
+L 678 0 
+L 77 0 
+L 1222 1645 
+L 173 3149 
+L 781 3149 
+L 1542 2029 
+L 2291 3149 
+L 2893 3149 
+L 1862 1670 
+z
+" transform="scale(0.015625)"/>
+      </defs>
+      <use xlink:href="#LabGrotesqueK-Regular-78"/>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_8">
+      <defs>
+       <path id="m03bcc03105" d="M 0 0 
+L -3.5 0 
+" style="stroke: #9700ff; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m03bcc03105" x="56.855" y="289.667204" style="fill: #9700ff; stroke: #9700ff; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <!-- 2 -->
+      <g style="fill: #9700ff" transform="translate(36.12625 298.187204) scale(0.24 -0.24)">
+       <use xlink:href="#LabGrotesqueK-Regular-32"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_9">
+      <g>
+       <use xlink:href="#m03bcc03105" x="56.855" y="218.544107" style="fill: #9700ff; stroke: #9700ff; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_10">
+      <!-- 4 -->
+      <g style="fill: #9700ff" transform="translate(35.935 227.064107) scale(0.24 -0.24)">
+       <defs>
+        <path id="LabGrotesqueK-Regular-34" d="M 2944 2566 
+L 2944 1530 
+L 3597 1530 
+L 3597 1062 
+L 2944 1062 
+L 2944 0 
+L 2394 0 
+L 2394 1062 
+L 186 1062 
+L 186 1574 
+L 1990 4525 
+L 2618 4525 
+L 781 1530 
+L 2394 1530 
+L 2394 2566 
+L 2944 2566 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#LabGrotesqueK-Regular-34"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#m03bcc03105" x="56.855" y="147.42101" style="fill: #9700ff; stroke: #9700ff; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_11">
+      <!-- 6 -->
+      <g style="fill: #9700ff" transform="translate(35.7175 155.94101) scale(0.24 -0.24)">
+       <defs>
+        <path id="LabGrotesqueK-Regular-36" d="M 2061 2957 
+Q 2496 2957 2825 2749 
+Q 3155 2541 3334 2195 
+Q 3514 1850 3514 1440 
+Q 3514 1037 3325 681 
+Q 3136 326 2781 112 
+Q 2426 -102 1939 -102 
+Q 1440 -102 1078 128 
+Q 717 358 525 758 
+Q 333 1158 333 1658 
+Q 333 2387 681 2988 
+Q 1030 3590 1670 4218 
+L 1984 4525 
+L 2739 4525 
+L 2739 4512 
+L 2048 3859 
+Q 1306 3168 1037 2541 
+Q 1216 2739 1475 2848 
+Q 1734 2957 2061 2957 
+z
+M 1939 378 
+Q 2400 378 2672 678 
+Q 2944 979 2944 1434 
+Q 2944 1888 2681 2185 
+Q 2419 2483 1965 2483 
+Q 1485 2483 1200 2185 
+Q 915 1888 915 1434 
+Q 915 1139 1040 899 
+Q 1165 659 1398 518 
+Q 1632 378 1939 378 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#LabGrotesqueK-Regular-36"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_11">
+      <g>
+       <use xlink:href="#m03bcc03105" x="56.855" y="76.297912" style="fill: #9700ff; stroke: #9700ff; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_12">
+      <!-- 8 -->
+      <g style="fill: #9700ff" transform="translate(35.7175 84.817912) scale(0.24 -0.24)">
+       <defs>
+        <path id="LabGrotesqueK-Regular-38" d="M 2669 2451 
+Q 3072 2298 3296 1981 
+Q 3520 1664 3520 1242 
+Q 3520 864 3325 557 
+Q 3130 250 2758 74 
+Q 2387 -102 1882 -102 
+Q 1382 -102 1011 74 
+Q 640 250 445 557 
+Q 250 864 250 1242 
+Q 250 1664 474 1981 
+Q 698 2298 1101 2451 
+Q 806 2598 640 2851 
+Q 474 3104 474 3437 
+Q 474 3789 650 4057 
+Q 826 4326 1146 4476 
+Q 1466 4627 1882 4627 
+Q 2304 4627 2624 4476 
+Q 2944 4326 3120 4057 
+Q 3296 3789 3296 3437 
+Q 3296 3104 3129 2851 
+Q 2963 2598 2669 2451 
+z
+M 1882 4173 
+Q 1491 4173 1254 3965 
+Q 1018 3757 1018 3430 
+Q 1018 3085 1258 2870 
+Q 1498 2656 1882 2656 
+Q 2272 2656 2512 2873 
+Q 2752 3091 2752 3430 
+Q 2752 3757 2515 3965 
+Q 2278 4173 1882 4173 
+z
+M 1882 371 
+Q 2374 371 2659 627 
+Q 2944 883 2944 1274 
+Q 2944 1690 2659 1949 
+Q 2374 2208 1882 2208 
+Q 1395 2208 1110 1949 
+Q 826 1690 826 1274 
+Q 826 883 1110 627 
+Q 1395 371 1882 371 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#LabGrotesqueK-Regular-38"/>
+      </g>
+     </g>
+    </g>
+    <g id="text_13">
+     <!-- y -->
+     <g style="fill: #9700ff" transform="translate(25.90875 184.26875) scale(0.24 -0.24)">
+      <defs>
+       <path id="LabGrotesqueK-Regular-79" d="M 2426 3149 
+L 2982 3149 
+L 1722 -435 
+Q 1568 -870 1369 -1052 
+Q 1171 -1235 774 -1235 
+Q 512 -1235 288 -1171 
+L 384 -749 
+Q 557 -787 723 -787 
+Q 915 -787 1036 -681 
+Q 1158 -576 1254 -288 
+L 1293 -166 
+L 109 3149 
+L 691 3149 
+L 1043 2106 
+Q 1203 1638 1510 710 
+L 1562 550 
+L 1754 1133 
+Q 1798 1274 2074 2118 
+L 2426 3149 
+z
+" transform="scale(0.015625)"/>
+      </defs>
+      <use xlink:href="#LabGrotesqueK-Regular-79"/>
+     </g>
+    </g>
+   </g>
+   <g id="line2d_12">
+    <path d="M 56.855 147.42101 
+L 61.62075 155.859765 
+L 66.3865 164.106488 
+L 71.15225 172.161179 
+L 75.918 180.023837 
+L 80.68375 187.694464 
+L 85.4495 195.173057 
+L 90.21525 202.459619 
+L 94.981 209.554147 
+L 99.74675 216.456644 
+L 104.5125 223.167108 
+L 109.27825 229.68554 
+L 114.044 236.01194 
+L 118.80975 242.146307 
+L 123.5755 248.088642 
+L 128.34125 253.838944 
+L 133.107 259.397214 
+L 137.87275 264.763452 
+L 142.6385 269.937657 
+L 147.40425 274.91983 
+L 152.17 279.709971 
+L 156.93575 284.308079 
+L 161.7015 288.714155 
+L 166.46725 292.928198 
+L 171.233 296.950209 
+L 175.99875 300.780188 
+L 180.7645 304.418135 
+L 185.53025 307.864049 
+L 190.296 311.11793 
+L 195.06175 314.17978 
+L 199.8275 317.049597 
+L 204.59325 319.727381 
+L 209.359 322.213134 
+L 214.12475 324.506854 
+L 218.8905 326.608541 
+L 223.65625 328.518196 
+L 228.422 330.235819 
+L 233.18775 331.761409 
+L 237.9535 333.094968 
+L 242.71925 334.236493 
+L 247.485 335.185987 
+L 252.25075 335.943448 
+L 257.0165 336.508876 
+L 261.78225 336.882272 
+L 266.548 337.063636 
+L 271.31375 337.052968 
+L 276.0795 336.850267 
+L 280.84525 336.455534 
+L 285.611 335.868768 
+L 290.37675 335.08997 
+L 295.1425 334.11914 
+L 299.90825 332.956277 
+L 304.674 331.601382 
+L 309.43975 330.054455 
+L 314.2055 328.315495 
+L 318.97125 326.384503 
+L 323.737 324.261479 
+L 328.50275 321.946422 
+L 333.2685 319.439333 
+L 338.03425 316.740211 
+L 342.8 313.849057 
+L 347.56575 310.765871 
+L 352.3315 307.490652 
+L 357.09725 304.023401 
+L 361.863 300.364118 
+L 366.62875 296.512802 
+L 371.3945 292.469454 
+L 376.16025 288.234074 
+L 380.926 283.806661 
+L 385.69175 279.187216 
+L 390.4575 274.375738 
+L 395.22325 269.372228 
+L 399.989 264.176686 
+L 404.75475 258.789112 
+L 409.5205 253.209505 
+L 414.28625 247.437865 
+L 419.052 241.474194 
+L 423.81775 235.318489 
+L 428.5835 228.970753 
+L 433.34925 222.430984 
+L 438.115 215.699183 
+L 442.88075 208.77535 
+L 447.6465 201.659484 
+L 452.41225 194.351585 
+L 457.178 186.851655 
+L 461.94375 179.159692 
+L 466.7095 171.275696 
+L 471.47525 163.199669 
+L 476.241 154.931609 
+L 481.00675 146.471516 
+L 485.7725 137.819391 
+L 490.53825 128.975234 
+L 495.304 119.939045 
+L 500.06975 110.710823 
+L 504.8355 101.290569 
+L 509.60125 91.678282 
+L 514.367 81.873963 
+L 519.13275 71.877612 
+L 523.8985 61.689228 
+L 528.66425 51.308812 
+L 533.43 40.736364 
+" clip-path="url(#pf23dce1324)" style="fill: none; stroke: #ff007f; stroke-width: 5; stroke-linecap: square"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 56.855 351.88 
+L 56.855 25.92 
+" style="fill: none; stroke: #9700ff; stroke-width: 5; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 533.43 351.88 
+L 533.43 25.92 
+" style="fill: none; stroke: #9700ff; stroke-width: 5; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 56.855 351.88 
+L 533.43 351.88 
+" style="fill: none; stroke: #9700ff; stroke-width: 5; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 56.855 25.92 
+L 533.43 25.92 
+" style="fill: none; stroke: #9700ff; stroke-width: 5; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="legend_1">
+    <g id="patch_7">
+     <path d="M 73.655 79.15125 
+L 322.51625 79.15125 
+Q 327.31625 79.15125 327.31625 74.35125 
+L 327.31625 42.72 
+Q 327.31625 37.92 322.51625 37.92 
+L 73.655 37.92 
+Q 68.855 37.92 68.855 42.72 
+L 68.855 74.35125 
+Q 68.855 79.15125 73.655 79.15125 
+L 73.655 79.15125 
+z
+" style="fill: none; opacity: 0"/>
+    </g>
+    <g id="line2d_13">
+     <path d="M 78.455 56.52 
+L 102.455 56.52 
+L 126.455 56.52 
+" style="fill: none; stroke: #ff007f; stroke-width: 5; stroke-linecap: square"/>
+    </g>
+    <g id="text_14">
+     <!-- Sample text ъуъ -->
+     <g style="fill: #9700ff" transform="translate(145.655 64.92) scale(0.24 -0.24)">
+      <defs>
+       <path id="LabGrotesqueK-Regular-53" d="M 1971 4640 
+Q 2483 4640 2880 4483 
+Q 3277 4326 3686 3974 
+L 3341 3565 
+Q 2976 3885 2665 4009 
+Q 2355 4134 1971 4134 
+Q 1504 4134 1216 3926 
+Q 928 3718 928 3392 
+Q 928 3162 1062 3024 
+Q 1197 2886 1443 2803 
+Q 1690 2720 2176 2611 
+Q 2758 2477 3094 2313 
+Q 3430 2150 3590 1910 
+Q 3750 1670 3750 1306 
+Q 3750 890 3536 570 
+Q 3322 250 2941 74 
+Q 2560 -102 2074 -102 
+Q 1523 -102 1088 80 
+Q 653 262 160 685 
+L 512 1101 
+Q 992 698 1341 554 
+Q 1690 410 2080 410 
+Q 2554 410 2858 643 
+Q 3162 877 3162 1274 
+Q 3162 1536 3014 1686 
+Q 2867 1837 2624 1923 
+Q 2381 2010 1894 2118 
+Q 1306 2253 976 2409 
+Q 646 2566 499 2793 
+Q 352 3021 352 3379 
+Q 352 3750 569 4038 
+Q 787 4326 1155 4483 
+Q 1523 4640 1971 4640 
+z
+" transform="scale(0.015625)"/>
+       <path id="LabGrotesqueK-Regular-61" d="M 1702 3238 
+Q 2310 3238 2646 2950 
+Q 2982 2662 2982 2189 
+L 2982 0 
+L 2483 0 
+L 2483 390 
+Q 2323 154 2048 26 
+Q 1773 -102 1414 -102 
+Q 915 -102 601 115 
+Q 288 333 288 781 
+Q 288 1286 669 1516 
+Q 1050 1747 1754 1875 
+L 2458 2003 
+L 2458 2163 
+Q 2458 2458 2256 2621 
+Q 2054 2784 1722 2784 
+Q 1427 2784 1200 2662 
+Q 973 2541 685 2253 
+L 333 2566 
+Q 627 2912 960 3075 
+Q 1293 3238 1702 3238 
+z
+M 1472 352 
+Q 1894 352 2176 576 
+Q 2458 800 2458 1178 
+L 2458 1594 
+L 1882 1478 
+Q 1510 1402 1296 1331 
+Q 1082 1261 954 1133 
+Q 826 1005 826 800 
+Q 826 582 995 467 
+Q 1165 352 1472 352 
+z
+" transform="scale(0.015625)"/>
+       <path id="LabGrotesqueK-Regular-6d" d="M 3725 3238 
+Q 4237 3238 4505 2950 
+Q 4774 2662 4774 2195 
+L 4774 0 
+L 4224 0 
+L 4224 2042 
+Q 4224 2394 4067 2582 
+Q 3910 2771 3597 2771 
+Q 3270 2771 3072 2550 
+Q 2874 2330 2874 1978 
+L 2874 0 
+L 2323 0 
+L 2323 2042 
+Q 2323 2394 2166 2582 
+Q 2010 2771 1696 2771 
+Q 1382 2771 1180 2556 
+Q 979 2342 979 1978 
+L 979 0 
+L 429 0 
+L 429 3149 
+L 947 3149 
+L 947 2771 
+Q 1235 3238 1850 3238 
+Q 2176 3238 2406 3100 
+Q 2637 2963 2758 2726 
+Q 3085 3238 3725 3238 
+z
+" transform="scale(0.015625)"/>
+       <path id="LabGrotesqueK-Regular-70" d="M 2022 3232 
+Q 2426 3232 2739 3024 
+Q 3053 2816 3232 2441 
+Q 3411 2067 3411 1581 
+Q 3411 1088 3232 710 
+Q 3053 333 2739 125 
+Q 2426 -83 2022 -83 
+Q 1318 -83 979 422 
+L 979 -1152 
+L 429 -1152 
+L 429 3149 
+L 947 3149 
+L 947 2662 
+Q 1114 2938 1386 3085 
+Q 1658 3232 2022 3232 
+z
+M 1939 390 
+Q 2349 390 2598 716 
+Q 2848 1043 2848 1581 
+Q 2848 2112 2601 2438 
+Q 2355 2765 1939 2765 
+Q 1504 2765 1232 2448 
+Q 960 2131 960 1581 
+Q 960 1024 1232 707 
+Q 1504 390 1939 390 
+z
+" transform="scale(0.015625)"/>
+       <path id="LabGrotesqueK-Regular-6c" d="M 448 4544 
+L 998 4544 
+L 998 0 
+L 448 0 
+L 448 4544 
+z
+" transform="scale(0.015625)"/>
+       <path id="LabGrotesqueK-Regular-65" d="M 3168 563 
+Q 2829 205 2512 57 
+Q 2195 -90 1798 -90 
+Q 1325 -90 973 115 
+Q 621 320 429 691 
+Q 237 1062 237 1555 
+Q 237 2048 422 2429 
+Q 608 2810 947 3024 
+Q 1286 3238 1741 3238 
+Q 2413 3238 2787 2832 
+Q 3162 2426 3162 1722 
+Q 3162 1594 3149 1478 
+L 787 1478 
+Q 813 998 1069 684 
+Q 1325 371 1805 371 
+Q 2099 371 2313 486 
+Q 2528 602 2842 896 
+L 3168 563 
+z
+M 1734 2797 
+Q 1350 2797 1107 2560 
+Q 864 2323 800 1888 
+L 2618 1888 
+Q 2598 2304 2368 2550 
+Q 2138 2797 1734 2797 
+z
+" transform="scale(0.015625)"/>
+       <path id="LabGrotesqueK-Regular-20" transform="scale(0.015625)"/>
+       <path id="LabGrotesqueK-Regular-74" d="M 2163 51 
+Q 1862 -58 1517 -58 
+Q 1082 -58 893 140 
+Q 704 339 704 730 
+L 704 2733 
+L 115 2733 
+L 115 3149 
+L 704 3149 
+L 704 4205 
+L 1254 4205 
+L 1254 3149 
+L 2106 3149 
+L 2106 2733 
+L 1254 2733 
+L 1254 794 
+Q 1254 582 1340 496 
+Q 1427 410 1626 410 
+Q 1798 410 2080 486 
+L 2163 51 
+z
+" transform="scale(0.015625)"/>
+       <path id="LabGrotesqueK-Regular-44a" d="M 2445 2093 
+Q 2976 2093 3299 1814 
+Q 3622 1536 3622 1043 
+Q 3622 550 3299 275 
+Q 2976 0 2445 0 
+L 1005 0 
+L 1005 2701 
+L 128 2701 
+L 128 3149 
+L 1555 3149 
+L 1555 2093 
+L 2445 2093 
+z
+M 2355 454 
+Q 2701 454 2880 595 
+Q 3059 736 3059 1043 
+Q 3059 1357 2880 1497 
+Q 2701 1638 2355 1638 
+L 1555 1638 
+L 1555 454 
+L 2355 454 
+z
+" transform="scale(0.015625)"/>
+       <path id="LabGrotesqueK-Regular-443" d="M 2426 3149 
+L 2982 3149 
+L 1722 -435 
+Q 1568 -870 1369 -1052 
+Q 1171 -1235 774 -1235 
+Q 512 -1235 288 -1171 
+L 384 -749 
+Q 557 -787 723 -787 
+Q 915 -787 1036 -681 
+Q 1158 -576 1254 -288 
+L 1293 -166 
+L 109 3149 
+L 691 3149 
+L 1043 2106 
+Q 1203 1638 1510 710 
+L 1562 550 
+L 1754 1133 
+Q 1798 1274 2074 2118 
+L 2426 3149 
+z
+" transform="scale(0.015625)"/>
+      </defs>
+      <use xlink:href="#LabGrotesqueK-Regular-53"/>
+      <use xlink:href="#LabGrotesqueK-Regular-61" x="62.899994"/>
+      <use xlink:href="#LabGrotesqueK-Regular-6d" x="116.099991"/>
+      <use xlink:href="#LabGrotesqueK-Regular-70" x="197.299973"/>
+      <use xlink:href="#LabGrotesqueK-Regular-6c" x="254.499969"/>
+      <use xlink:href="#LabGrotesqueK-Regular-65" x="277.09996"/>
+      <use xlink:href="#LabGrotesqueK-Regular-20" x="330.499954"/>
+      <use xlink:href="#LabGrotesqueK-Regular-74" x="353.199951"/>
+      <use xlink:href="#LabGrotesqueK-Regular-65" x="388.799942"/>
+      <use xlink:href="#LabGrotesqueK-Regular-78" x="442.199936"/>
+      <use xlink:href="#LabGrotesqueK-Regular-74" x="490.199921"/>
+      <use xlink:href="#LabGrotesqueK-Regular-20" x="525.799911"/>
+      <use xlink:href="#LabGrotesqueK-Regular-44a" x="548.499908"/>
+      <use xlink:href="#LabGrotesqueK-Regular-443" x="608.499893"/>
+      <use xlink:href="#LabGrotesqueK-Regular-44a" x="656.899887"/>
+     </g>
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pf23dce1324">
+   <rect x="56.855" y="25.92" width="476.575" height="325.96"/>
+  </clipPath>
+ </defs>
+</svg>
