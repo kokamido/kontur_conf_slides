@@ -14,6 +14,7 @@ font_manager.fontManager.addfont(font_path)
 font_prop = font_manager.FontProperties(fname=font_path, size=24)
 
 plt.rcParams['font.size'] = 24
+plt.rcParams['legend.labelcolor'] = COLOR_VIOLET
 plt.rcParams['font.family'] = font_prop.get_name()
 
 print('Глобальные настройки шрифтов посеттил')
