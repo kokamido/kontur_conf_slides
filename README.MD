@@ -14,17 +14,18 @@ python -m pip install -r requirements.txt
 ```
 
 
-# Профилировка
-python conformer_forward_pass.py --paths2audio_files=etc/audios --files_to_process=10
+Установить [nvidia-nsight](https://developer.nvidia.com/nsight-systems/get-started#Linuxx86), выполнить его требования к окружению из секции System Requirements [официального user guide](https://docs.nvidia.com/nsight-systems/UserGuide/index.html), например "The system’s paranoid level must be 2 or lower.
+
+
 
 # Источники
-
 - [Andrej Karpathy, Neural Networks: Zero to Hero](https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ)
 - [Vrushank Desai, Серия постов про CUDA и устройство GPU](https://www.vrushankdes.ai/diffusion-inference-optimization)
+- [How to Optimize a CUDA Matmul Kernel for cuBLAS-like Performance: a Worklog](https://siboehm.com/articles/22/CUDA-MMM)
+- [Гайд](https://docs.nvidia.com/nsight-systems/UserGuide/index.html) по профилировщику NVidia Nsight
 - [Пост](https://pytorch.org/blog/accelerating-generative-ai-2/) от PyTorch про то, как они ускоряли языковые модели. 
 - [Horace He, Making Deep Learning Go Brrrr From First Principles](https://horace.io/brrr_intro.html)
-- [Курс CUDA mode](https://www.youtube.com/@CUDAMODE/videos), особенно [лекция про профилирование](https://www.youtube.com/watch?v=LuhJEEJQgUM)
-- [Гайд](https://docs.nvidia.com/nsight-systems/UserGuide/index.html) по профилировщику NVidia Nsight
+- [Курс CUDA mode](https://www.youtube.com/@CUDAMODE/videos), особенно [лекция про профилирование](https://www.youtube.com/watch?v=LuhJEEJQgUM)ZZ
 - Датасет речи [sova](https://github.com/sovaai/sova-dataset)
 
 # Окружение, в котором выполнены измерения
@@ -62,3 +63,7 @@ PyTorch built with:
   - CPU capability usage: AVX2
   - CUDA Runtime 12.1
 ```
+
+
+"
+

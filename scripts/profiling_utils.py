@@ -16,9 +16,10 @@ def get_model_and_data(
 ) -> tuple[nemo_asr.models.EncDecCTCModelBPE, torch.utils.data.DataLoader]:
     print(paths2audio_files)
     asr_model = nemo_asr.models.EncDecCTCModelBPE.from_pretrained(
-        model_name="stt_ru_conformer_ctc_large",
+        model_name=model_name,
     )
     asr_model = asr_model.to(device)
+    asr_model = asr_model.eval()
     with tempfile.TemporaryDirectory() as tmpdir:
         with open(os.path.join(tmpdir, "manifest.json"), "w", encoding="utf-8") as fp:
             print("aa", os.getcwd(), paths2audio_files)
@@ -52,3 +53,9 @@ def get_model_and_data(
             )
             data.append((processed_signal, processed_signal_length))
         return asr_model, data
+
+
+def go(model, data):
+    with torch.no_grad():
+        for processed_signal, processed_signal_length in data:
+            model.encoder(audio_signal=processed_signal, length=processed_signal_length)
