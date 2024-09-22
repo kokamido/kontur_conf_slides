@@ -11,10 +11,9 @@ go(asr_model, data)
 random.shuffle(data)
 with profile(with_stack=True, activities=[ProfilerActivity.CPU, ProfilerActivity.CUDA]) as prof:
     go(asr_model, data)
-random.shuffle(data)
 
 with open('etc/profiler_outputs/gpu_forward_profiling', mode='w') as out:
-    out.write(prof.key_averages().table(sort_by='self_cuda_time_total',max_name_column_width=1024, max_shapes_column_width=1024))
+    out.write(prof.key_averages().table(sort_by='self_cuda_time_total',max_name_column_width=4096, max_shapes_column_width=4096))
 
 random.shuffle(data)
 start = torch.cuda.Event(enable_timing=True)

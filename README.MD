@@ -10,13 +10,11 @@ sudo apt install graphviz=2.42.2-9ubuntu0.1
 python -m venv .venv
 source .venv/bin/activate
 pip install wheel && pip install cython # т.к. у пакета nemo-toolkit[asr] есть зависимость youtokentome, и она ожидает видеть эти пакеты установленными на момент установки себя https://github.com/VKCOM/YouTokenToMe/issues/107#issuecomment-1762142486
-python -m pip install -r requirements.txt
+pip install torch==2.4.1 graphviz==0.20.3 numpy==2.1.1 matplotlib==3.9.2
+pip install nemo-toolkit[asr]==1.23.0 huggingface_hub==0.23.2 numpy==1.26.4
 ```
 
-
 Установить [nvidia-nsight](https://developer.nvidia.com/nsight-systems/get-started#Linuxx86), выполнить его требования к окружению из секции System Requirements [официального user guide](https://docs.nvidia.com/nsight-systems/UserGuide/index.html), например "The system’s paranoid level must be 2 or lower.
-
-
 
 # Источники
 - [Andrej Karpathy, Neural Networks: Zero to Hero](https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ)
