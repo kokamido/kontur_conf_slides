@@ -1,3 +1,6 @@
 [submodule "micrograd"]
 	path = micrograd
 	url = git@github.com:kokamido/micrograd.git
+[submodule "FlameGraph"]
+	path = FlameGraph
+	url = git@github.com:brendangregg/FlameGraph.git
