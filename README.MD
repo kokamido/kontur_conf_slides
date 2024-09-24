@@ -14,6 +14,10 @@ pip install torch==2.4.1 graphviz==0.20.3 numpy==2.1.1 matplotlib==3.9.2
 pip install nemo-toolkit[asr]==1.23.0 huggingface_hub==0.23.2 numpy==1.26.4
 ```
 
+sudo apt install nvidia-cuda-toolkit
+https://developer.nvidia.com/cuda-gpus GeForce RTX 3090 Ti	8.6
+llama.cpp$ CUDA_DOCKER_ARCH=sm_86 make GGML_CUDA=1
+
 Установить [nvidia-nsight](https://developer.nvidia.com/nsight-systems/get-started#Linuxx86), выполнить его требования к окружению из секции System Requirements [официального user guide](https://docs.nvidia.com/nsight-systems/UserGuide/index.html), например "The system’s paranoid level must be 2 or lower.
 
 # Источники
@@ -21,6 +25,7 @@ pip install nemo-toolkit[asr]==1.23.0 huggingface_hub==0.23.2 numpy==1.26.4
 - [Vrushank Desai, Серия постов про CUDA и устройство GPU](https://www.vrushankdes.ai/diffusion-inference-optimization)
 - [How to Optimize a CUDA Matmul Kernel for cuBLAS-like Performance: a Worklog](https://siboehm.com/articles/22/CUDA-MMM)
 - [Гайд](https://docs.nvidia.com/nsight-systems/UserGuide/index.html) по профилировщику NVidia Nsight
+- [CUDA Refresher: The CUDA Programming Model](https://developer.nvidia.com/blog/cuda-refresher-cuda-programming-model/)
 - [Пост](https://pytorch.org/blog/accelerating-generative-ai-2/) от PyTorch про то, как они ускоряли языковые модели. 
 - [Horace He, Making Deep Learning Go Brrrr From First Principles](https://horace.io/brrr_intro.html)
 - [Курс CUDA mode](https://www.youtube.com/@CUDAMODE/videos), особенно [лекция про профилирование](https://www.youtube.com/watch?v=LuhJEEJQgUM)ZZ
