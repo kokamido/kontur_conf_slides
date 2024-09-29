@@ -26,3 +26,10 @@ nsys profile \
 echo running llama.cpp "benchmark"
 
 bash scripts/bench_llama.sh | tee etc/profiler_outputs/llama_profiling && python scripts/draw_llama.py
+
+
+#sudo su
+
+ncu --set full -o etc/profiler_outputs/profile_default -f --target-processes all python scripts/gpu_profile_small_default.py
+ncu --set full -o etc/profiler_outputs/profile_matmul_tf32 -f --target-processes all python scripts/gpu_profile_small_matmu
+l_allowtf32.py
