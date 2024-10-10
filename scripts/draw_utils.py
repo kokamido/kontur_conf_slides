@@ -5,18 +5,21 @@ from matplotlib import font_manager
 
 COLOR_PINK = "#ff007f"
 COLOR_VIOLET = "#9700ff"
+COLOR_BLUE = "#0082ff"
+COLOR_CYAN = "#00ffc3"
+COLOR_GREEN = "#02fe00"
 
 
-font_path = 'etc/LabGrotesqueK-Regular.ttf'  # Replace with your font file path
+font_path = "etc/LabGrotesqueK-Regular.ttf"  # Replace with your font file path
 
 font_manager.fontManager.addfont(font_path)
 font_prop = font_manager.FontProperties(fname=font_path, size=24)
 
-plt.rcParams['font.size'] = 24
-plt.rcParams['legend.labelcolor'] = COLOR_VIOLET
-plt.rcParams['font.family'] = font_prop.get_name()
+plt.rcParams["font.size"] = 24
+plt.rcParams["legend.labelcolor"] = COLOR_VIOLET
+plt.rcParams["font.family"] = font_prop.get_name()
 
-print('Глобальные настройки шрифтов посеттил')
+print("Глобальные настройки шрифтов посеттил")
 # Ну да, грязь, а что ты мне сделаешь?
 
 
@@ -34,7 +37,7 @@ def trace(root):
     return nodes, edges
 
 
-def draw_dot(root, show_grads=False, format="svg", rankdir="LR"):
+def draw_dot(root, format="svg", rankdir="LR", layout="dot", show_grad = True, show_data=True):
     """
     format: png | svg | ...
     rankdir: TB (top to bottom graph) | LR (left to right)
@@ -42,16 +45,25 @@ def draw_dot(root, show_grads=False, format="svg", rankdir="LR"):
     assert rankdir in ["LR", "TB"]
     nodes, edges = trace(root)
     dot = Digraph(
-        format=format, 
-        graph_attr={"rankdir": rankdir, "bgcolor": "transparent", "fontname":"Lab Grotesque K"},
-        node_attr={"fontname":"Lab Grotesque K", "fontsize":'16'},
-        edge_attr={"fontname":"Lab Grotesque K", "fontsize":'16'}
+        format=format,
+        graph_attr={
+            "rankdir": rankdir,
+            "bgcolor": "transparent",
+            "fontname": "Lab Grotesque K",
+            "overlap": "false",  # Prevent node overlap
+            "linelength": "60",
+            "layout": layout,  # Packing mode
+        },
+        node_attr={"fontname": "Lab Grotesque K", "fontsize": "16"},
+        edge_attr={"fontname": "Lab Grotesque K", "fontsize": "16"},
     )  # , node_attr={'rankdir': 'TB'})
 
     for n in nodes:
-        label = f"{n.label} | data {n.data:.4}"
-        if show_grads:
-            label = label + f" | grad {n.grad:.4}"
+        label = f"{n.label}"
+        if show_data:
+            label = label + f'| data {round(n.data,2)}'
+        if show_grad and n.show_grads:
+            label = label + f" | grad {round(n.grad,2)}"
         dot.node(
             name=str(id(n)),
             label=label,

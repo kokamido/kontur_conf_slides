@@ -1,14 +1,16 @@
+    echo "Here we go!"
+
 rm -rf etc/profiler_outputs/*
 
 echo running 'python scripts/cpu_profile.py'
-python scripts/cpu_profile.py 2>/dev/null
+python scripts/cpu_profile.py 2>/dev/null 1>/dev/null
 
 total_percents_self_cpu=$(cat etc/profiler_outputs/cpu_forward_profiling | awk '{print $2}' | grep '\.' | tr -d % | awk '{s+=$1} END {print s}')
 
 echo "[LOG] Sum of self_cpu% col in etc/profiler_outputs/cpu_forward_profiling is $total_percents_self_cpu" 
 
 echo running 'python scripts/gpu_profile.py'
-python scripts/gpu_profile.py 2>/dev/null
+python scripts/gpu_profile.py 2>/dev/null 1>/dev/null
 
 total_percents_self_cuda=$(cat etc/profiler_outputs/gpu_forward_profiling | sed -E 's/[ ]{2,}/\t/g' |cut -f9 | grep -oP "\d+\.\d+%" | tr -d %| awk '{s+=$1} END {print s}')
 echo "[LOG] Sum of self_cuda% col in etc/profiler_outputs/gpu_forward_profiling is $total_percents_self_cuda" 
@@ -25,11 +27,11 @@ nsys profile \
 
 echo running llama.cpp "benchmark"
 
-bash scripts/bench_llama.sh | tee etc/profiler_outputs/llama_profiling && python scripts/draw_llama.py
+# bash scripts/bench_llama.sh | tee etc/profiler_outputs/llama_profiling && python scripts/draw_llama.py
 
 
-#sudo su
-
-ncu --set full -o etc/profiler_outputs/profile_default -f --target-processes all python scripts/gpu_profile_small_default.py
-ncu --set full -o etc/profiler_outputs/profile_matmul_tf32 -f --target-processes all python scripts/gpu_profile_small_matmu
-l_allowtf32.py
+sudo su -c "echo 0 > /proc/sys/kernel/perf_event_paranoid && \
+source .venv/bin/activate && \
+echo meme && \
+ncu --set full -o etc/profiler_outputs/profile_default -f --target-processes all python scripts/gpu_profile_small_default.py && \
+ncu --set full -o etc/profiler_outputs/profile_matmul_tf32 -f --target-processes all python scripts/gpu_profile_small_matmul.py"

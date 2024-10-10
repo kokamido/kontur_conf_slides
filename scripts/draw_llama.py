@@ -1,7 +1,7 @@
 import re
 import numpy as np
 import pylab as plt
-from draw_utils import COLOR_PINK, COLOR_VIOLET, fix_axes_style
+from draw_utils import COLOR_BLUE, COLOR_GREEN, fix_axes_style
 
 extract_data = re.compile(r' (?P<time>[0-9.]+) ms /[ ]+(?P<tokens>[0-9]+) tokens')
 
@@ -22,10 +22,10 @@ with open('etc/profiler_outputs/llama_profiling') as inp:
 cpu_points = np.array(cpu_points)
 gpu_points = np.array(gpu_points)
 ax = plt.gca()
-ax.scatter(cpu_points[:, 1], cpu_points[:, 0], c='#0082ff', s=45)
-ax.plot(cpu_points[:, 1], cpu_points[:, 0], c='#0082ff', lw=3, label='CPU')
-ax.scatter(gpu_points[:, 1], gpu_points[:, 0], c='#00ffc3', s=45)
-ax.plot(gpu_points[:, 1], gpu_points[:, 0], c='#00ffc3', lw=3, label='GPU')
+ax.scatter(cpu_points[:, 1], cpu_points[:, 0], c=COLOR_BLUE, s=45)
+ax.plot(cpu_points[:, 1], cpu_points[:, 0], c=COLOR_BLUE, lw=3, label='CPU')
+ax.scatter(gpu_points[:, 1], gpu_points[:, 0], c=COLOR_GREEN, s=45)
+ax.plot(gpu_points[:, 1], gpu_points[:, 0], c=COLOR_GREEN, lw=3, label='GPU')
 ax.set_ylabel('миллисекунды')
 ax.set_xlabel('количество токенов')
 ax.set_title('llama.cpp')

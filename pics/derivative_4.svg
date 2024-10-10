@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="460.8pt" height="345.6pt" viewBox="0 0 460.8 345.6" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2024-10-10T19:30:38.374328</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.9.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 345.6 
+L 460.8 345.6 
+L 460.8 0 
+L 0 0 
+L 0 345.6 
+z
+" style="fill: none"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 92.18 265.48 
+L 434.88 265.48 
+L 434.88 25.92 
+L 92.18 25.92 
+L 92.18 265.48 
+z
+" style="fill: none"/>
+   </g>
+   <g id="PathCollection_1">
+    <defs>
+     <path id="m58796f75e9" d="M 0 4.330127 
+C 1.148363 4.330127 2.249847 3.873878 3.061862 3.061862 
+C 3.873878 2.249847 4.330127 1.148363 4.330127 0 
+C 4.330127 -1.148363 3.873878 -2.249847 3.061862 -3.061862 
+C 2.249847 -3.873878 1.148363 -4.330127 0 -4.330127 
+C -1.148363 -4.330127 -2.249847 -3.873878 -3.061862 -3.061862 
+C -3.873878 -2.249847 -4.330127 -1.148363 -4.330127 0 
+C -4.330127 1.148363 -3.873878 2.249847 -3.061862 3.061862 
+C -2.249847 3.873878 -1.148363 4.330127 0 4.330127 
+z
+" style="stroke: #02fe00"/>
+    </defs>
+    <g clip-path="url(#p6a3a913f60)">
+     <use xlink:href="#m58796f75e9" x="107.757273" y="253.065328" style="fill: #02fe00; stroke: #02fe00"/>
+     <use xlink:href="#m58796f75e9" x="185.643636" y="233.535442" style="fill: #02fe00; stroke: #02fe00"/>
+     <use xlink:href="#m58796f75e9" x="263.53" y="83.496767" style="fill: #02fe00; stroke: #02fe00"/>
+     <use xlink:href="#m58796f75e9" x="341.416364" y="129.300675" style="fill: #02fe00; stroke: #02fe00"/>
+     <use xlink:href="#m58796f75e9" x="419.302727" y="36.809091" style="fill: #02fe00; stroke: #02fe00"/>
+    </g>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="md013857e2d" d="M 0 0 
+L 0 3.5 
+" style="stroke: #9700ff; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#md013857e2d" x="107.757273" y="265.48" style="fill: #9700ff; stroke: #9700ff; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <!-- 0.0 -->
+      <g style="fill: #9700ff" transform="translate(90.981648 289.52) scale(0.24 -0.24)">
+       <defs>
+        <path id="LabGrotesqueK-Regular-30" d="M 1888 4627 
+Q 2336 4627 2675 4409 
+Q 3014 4192 3213 3795 
+Q 3520 3174 3520 2259 
+Q 3520 1350 3213 730 
+Q 3014 333 2678 115 
+Q 2342 -102 1888 -102 
+Q 1434 -102 1098 115 
+Q 762 333 563 730 
+Q 256 1350 256 2259 
+Q 256 3174 563 3795 
+Q 762 4192 1101 4409 
+Q 1440 4627 1888 4627 
+z
+M 1888 4141 
+Q 1331 4141 1062 3546 
+Q 832 3059 832 2259 
+Q 832 1472 1062 973 
+Q 1190 685 1401 531 
+Q 1613 378 1888 378 
+Q 2163 378 2374 531 
+Q 2586 685 2714 973 
+Q 2944 1472 2944 2259 
+Q 2944 3059 2714 3546 
+Q 2445 4141 1888 4141 
+z
+" transform="scale(0.015625)"/>
+        <path id="LabGrotesqueK-Regular-2e" d="M 698 -58 
+Q 538 -58 419 60 
+Q 301 179 301 346 
+Q 301 506 419 624 
+Q 538 742 698 742 
+Q 858 742 976 624 
+Q 1094 506 1094 346 
+Q 1094 179 976 60 
+Q 858 -58 698 -58 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#LabGrotesqueK-Regular-30"/>
+       <use xlink:href="#LabGrotesqueK-Regular-2e" x="58.999985"/>
+       <use xlink:href="#LabGrotesqueK-Regular-30" x="80.799973"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#md013857e2d" x="263.53" y="265.48" style="fill: #9700ff; stroke: #9700ff; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <!-- 0.5 -->
+      <g style="fill: #9700ff" transform="translate(246.79 289.52) scale(0.24 -0.24)">
+       <defs>
+        <path id="LabGrotesqueK-Regular-35" d="M 1984 2918 
+Q 2413 2918 2739 2732 
+Q 3066 2547 3245 2220 
+Q 3424 1894 3424 1472 
+Q 3424 1056 3232 694 
+Q 3040 333 2688 115 
+Q 2336 -102 1875 -102 
+Q 1402 -102 1050 32 
+Q 698 166 230 493 
+L 512 909 
+Q 941 608 1216 493 
+Q 1491 378 1824 378 
+Q 2131 378 2364 522 
+Q 2598 666 2726 912 
+Q 2854 1158 2854 1453 
+Q 2854 1901 2598 2173 
+Q 2342 2445 1882 2445 
+Q 1350 2445 992 2074 
+L 499 2131 
+L 691 4525 
+L 3219 4525 
+L 3219 4045 
+L 1178 4045 
+L 1062 2618 
+Q 1427 2918 1984 2918 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#LabGrotesqueK-Regular-30"/>
+       <use xlink:href="#LabGrotesqueK-Regular-2e" x="58.999985"/>
+       <use xlink:href="#LabGrotesqueK-Regular-35" x="80.799973"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use xlink:href="#md013857e2d" x="419.302727" y="265.48" style="fill: #9700ff; stroke: #9700ff; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <!-- 1.0 -->
+      <g style="fill: #9700ff" transform="translate(404.087102 289.52) scale(0.24 -0.24)">
+       <defs>
+        <path id="LabGrotesqueK-Regular-31" d="M 218 3507 
+L 1555 4525 
+L 1984 4525 
+L 1984 0 
+L 1421 0 
+L 1421 3808 
+L 499 3117 
+L 218 3507 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#LabGrotesqueK-Regular-31"/>
+       <use xlink:href="#LabGrotesqueK-Regular-2e" x="45.999985"/>
+       <use xlink:href="#LabGrotesqueK-Regular-30" x="67.799973"/>
+      </g>
+     </g>
+    </g>
+    <g id="text_4">
+     <!-- X -->
+     <g style="fill: #9700ff" transform="translate(255.814375 314.88) scale(0.24 -0.24)">
+      <defs>
+       <path id="LabGrotesqueK-Regular-58" d="M 2419 2387 
+L 4038 0 
+L 3373 0 
+L 2054 1965 
+L 736 0 
+L 70 0 
+L 1702 2387 
+L 230 4544 
+L 890 4544 
+L 2067 2797 
+L 3232 4544 
+L 3891 4544 
+L 2419 2387 
+z
+" transform="scale(0.015625)"/>
+      </defs>
+      <use xlink:href="#LabGrotesqueK-Regular-58"/>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_4">
+      <defs>
+       <path id="m4ee33d0891" d="M 0 0 
+L -3.5 0 
+" style="stroke: #9700ff; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m4ee33d0891" x="92.18" y="208.118973" style="fill: #9700ff; stroke: #9700ff; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <!-- 0.6 -->
+      <g style="fill: #9700ff" transform="translate(51.65125 216.638973) scale(0.24 -0.24)">
+       <defs>
+        <path id="LabGrotesqueK-Regular-36" d="M 2061 2957 
+Q 2496 2957 2825 2749 
+Q 3155 2541 3334 2195 
+Q 3514 1850 3514 1440 
+Q 3514 1037 3325 681 
+Q 3136 326 2781 112 
+Q 2426 -102 1939 -102 
+Q 1440 -102 1078 128 
+Q 717 358 525 758 
+Q 333 1158 333 1658 
+Q 333 2387 681 2988 
+Q 1030 3590 1670 4218 
+L 1984 4525 
+L 2739 4525 
+L 2739 4512 
+L 2048 3859 
+Q 1306 3168 1037 2541 
+Q 1216 2739 1475 2848 
+Q 1734 2957 2061 2957 
+z
+M 1939 378 
+Q 2400 378 2672 678 
+Q 2944 979 2944 1434 
+Q 2944 1888 2681 2185 
+Q 2419 2483 1965 2483 
+Q 1485 2483 1200 2185 
+Q 915 1888 915 1434 
+Q 915 1139 1040 899 
+Q 1165 659 1398 518 
+Q 1632 378 1939 378 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#LabGrotesqueK-Regular-30"/>
+       <use xlink:href="#LabGrotesqueK-Regular-2e" x="58.999985"/>
+       <use xlink:href="#LabGrotesqueK-Regular-36" x="80.799973"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_5">
+      <g>
+       <use xlink:href="#m4ee33d0891" x="92.18" y="146.140111" style="fill: #9700ff; stroke: #9700ff; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <!-- 0.8 -->
+      <g style="fill: #9700ff" transform="translate(51.65125 154.660111) scale(0.24 -0.24)">
+       <defs>
+        <path id="LabGrotesqueK-Regular-38" d="M 2669 2451 
+Q 3072 2298 3296 1981 
+Q 3520 1664 3520 1242 
+Q 3520 864 3325 557 
+Q 3130 250 2758 74 
+Q 2387 -102 1882 -102 
+Q 1382 -102 1011 74 
+Q 640 250 445 557 
+Q 250 864 250 1242 
+Q 250 1664 474 1981 
+Q 698 2298 1101 2451 
+Q 806 2598 640 2851 
+Q 474 3104 474 3437 
+Q 474 3789 650 4057 
+Q 826 4326 1146 4476 
+Q 1466 4627 1882 4627 
+Q 2304 4627 2624 4476 
+Q 2944 4326 3120 4057 
+Q 3296 3789 3296 3437 
+Q 3296 3104 3129 2851 
+Q 2963 2598 2669 2451 
+z
+M 1882 4173 
+Q 1491 4173 1254 3965 
+Q 1018 3757 1018 3430 
+Q 1018 3085 1258 2870 
+Q 1498 2656 1882 2656 
+Q 2272 2656 2512 2873 
+Q 2752 3091 2752 3430 
+Q 2752 3757 2515 3965 
+Q 2278 4173 1882 4173 
+z
+M 1882 371 
+Q 2374 371 2659 627 
+Q 2944 883 2944 1274 
+Q 2944 1690 2659 1949 
+Q 2374 2208 1882 2208 
+Q 1395 2208 1110 1949 
+Q 826 1690 826 1274 
+Q 826 883 1110 627 
+Q 1395 371 1882 371 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#LabGrotesqueK-Regular-30"/>
+       <use xlink:href="#LabGrotesqueK-Regular-2e" x="58.999985"/>
+       <use xlink:href="#LabGrotesqueK-Regular-38" x="80.799973"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#m4ee33d0891" x="92.18" y="84.161249" style="fill: #9700ff; stroke: #9700ff; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <!-- 1.0 -->
+      <g style="fill: #9700ff" transform="translate(54.74875 92.681249) scale(0.24 -0.24)">
+       <use xlink:href="#LabGrotesqueK-Regular-31"/>
+       <use xlink:href="#LabGrotesqueK-Regular-2e" x="45.999985"/>
+       <use xlink:href="#LabGrotesqueK-Regular-30" x="67.799973"/>
+      </g>
+     </g>
+    </g>
+    <g id="text_8">
+     <!-- Y -->
+     <g style="fill: #9700ff" transform="translate(43.33125 153.18875) rotate(-90) scale(0.24 -0.24)">
+      <defs>
+       <path id="LabGrotesqueK-Regular-59" d="M 2003 2464 
+L 3258 4544 
+L 3898 4544 
+L 2285 1939 
+L 2285 0 
+L 1696 0 
+L 1696 1946 
+L 96 4544 
+L 749 4544 
+L 2003 2464 
+z
+" transform="scale(0.015625)"/>
+      </defs>
+      <use xlink:href="#LabGrotesqueK-Regular-59"/>
+     </g>
+    </g>
+   </g>
+   <g id="line2d_7">
+    <path d="M 107.757273 254.590909 
+L 185.643636 200.916185 
+L 263.53 147.241461 
+L 341.416364 93.566737 
+L 419.302727 39.892012 
+" clip-path="url(#p6a3a913f60)" style="fill: none; stroke: #0082ff; stroke-width: 5; stroke-linecap: square"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 92.18 265.48 
+L 92.18 25.92 
+" style="fill: none; stroke: #9700ff; stroke-width: 5; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 434.88 265.48 
+L 434.88 25.92 
+" style="fill: none; stroke: #9700ff; stroke-width: 5; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 92.18 265.48 
+L 434.88 265.48 
+" style="fill: none; stroke: #9700ff; stroke-width: 5; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 92.18 25.92 
+L 434.88 25.92 
+" style="fill: none; stroke: #9700ff; stroke-width: 5; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="legend_1">
+    <g id="patch_7">
+     <path d="M 108.98 57.12 
+L 118.58 57.12 
+Q 123.38 57.12 123.38 52.32 
+L 123.38 42.72 
+Q 123.38 37.92 118.58 37.92 
+L 108.98 37.92 
+Q 104.18 37.92 104.18 42.72 
+L 104.18 52.32 
+Q 104.18 57.12 108.98 57.12 
+L 108.98 57.12 
+z
+" style="fill: none; opacity: 0"/>
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p6a3a913f60">
+   <rect x="92.18" y="25.92" width="342.7" height="239.56"/>
+  </clipPath>
+ </defs>
+</svg>
